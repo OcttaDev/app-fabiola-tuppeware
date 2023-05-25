@@ -1,6 +1,5 @@
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 import './style/index.css'
-//-7.666548, -36.889466
 function Location() {
   const api = process.env.REACT_MAPS_API_KEY
   console.log(api)
