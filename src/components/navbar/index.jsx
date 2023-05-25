@@ -24,11 +24,11 @@ export function NavBar() {
           <Link to="/location" className='hover:border-b-2 hover:border-b-[#E8CEAB] font-bold'>Localização</Link>
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
-        {icon}
+       <FaTimes size={26}/>
       </button>
       </nav>
       <button className="nav-btn nav-close-btn" onClick={showNavBar}>
-        {icon}
+      <FaBars size={26}/>
       </button>
     </header>
   );

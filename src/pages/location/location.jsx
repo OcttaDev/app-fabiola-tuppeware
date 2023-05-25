@@ -1,11 +1,9 @@
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 import './style/index.css'
 function Location() {
-  const api = process.env.API_KEY
-  console.log(api)
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: api,
+    googleMapsApiKey: "AIzaSyBcuZRZclDIy6ln3KvHAHTfWnlv2dor_DQ",
   });
   return (
       <div className="maps">
