@@ -1,0 +1,63 @@
+@media screen and (min-width: 1000px) {
+   .map{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 90%;
+      width: 70%;
+      margin: auto;
+   }
+   .location{
+      width: 50%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+   }
+   .maps{
+      width: 100%;
+      height: 100%;
+   }
+}
+@media screen and (min-width: 750px) and (max-width: 1000px){
+   .map{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 80%;
+      margin: auto;
+   }
+   .location{
+      width: 100%;
+      margin: 15px auto;
+      height: 50%;
+   }
+   .maps{
+      width: 100%;
+      height: 100%;
+   }
+}
+@media screen and (min-width: 250px) and (max-width: 750px) {
+   .map{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70%;
+      width: 80%;
+      margin: 30px auto;
+   }
+   .location{
+      width: 100%;
+      margin: 30px auto;
+      height: 50%;
+   }
+   .maps{
+      width: 100%;
+      height: 100%;
+   }
+}
+

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./fonts/DM_sans/DMSans-Regular.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html, body, #root{
+  background-color: #F0E9D1;
+}
+
+@layer base{
+  html{
+    font-family: 'DM Sans';
+  }
+}
