@@ -3,7 +3,7 @@ import './style/index.css'
 function Location() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBcuZRZclDIy6ln3KvHAHTfWnlv2dor_DQ",
+    googleMapsApiKey: process.env.API_KEY,
   });
   return (
       <div className="maps">

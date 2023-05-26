@@ -14,7 +14,7 @@ export function NavBar() {
   }
 
   return (
-    <header>
+    <header >
       <Link to="/" className='text-black text-xl font-bold'>Fabíola TuppeWare©</Link>
       <nav ref={navRef}>
         <a href="#">

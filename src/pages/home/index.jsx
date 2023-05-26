@@ -7,7 +7,8 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import Logo from "../../assets/logo.jpeg";
 import Catalogo from "../../assets/pdf/catalogo-25-maio.pdf";
 
-//chave api: AIzaSyBcuZRZclDIy6ln3KvHAHTfWnlv2dor_DQ
+
+
 
 function Home() {
   return (
