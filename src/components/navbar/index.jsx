@@ -20,6 +20,7 @@ export function NavBar() {
             ? "nav-links-mobile"
             : "nav-links flex items-center list-none gap-10"
         }
+        onClick={() => setIsMobile(false)}
       >
         <li
           className={
