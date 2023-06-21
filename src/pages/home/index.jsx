@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "../../index.css";
+import Download from "./Download";
 
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+// import { HiOutlineLocationMarker } from "react-icons/hi";
 
 import Logo from "../../assets/logo.jpeg";
-import Catalogo from "../../assets/pdf/catalogo-25-maio.pdf";
+import * as catalogo from '../../assets'
 
 
 
@@ -52,14 +53,22 @@ function Home() {
             {" "}
              Qualidade Tuppeware{" "}
           </Link>
-          <a
+            
+          {/* <a
             href={Catalogo}
-            download="catalogo-maio"
+            download="catalogo-junho"
             className="flex justify-evenly gap-1 items-center shadow-xl bg-white  h-10 rounded-full text-[#E8CEAB] text-center font-bold border-2 border-[#E8CEAB] hover:bg-[#E8CEAB]/75 hover:text-white"
           >
             {" "}
             Vitrine Do Mês{" "}
-          </a>
+          </a> */}
+
+          {console.log(import.meta.env.VITE_APP_ACCESS)}
+
+          <Download 
+            title="Vitrine Do Mês"
+            archive={catalogo.catalogo_junho}
+          />
         </div>
       </div>
     </div>
