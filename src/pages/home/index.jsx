@@ -67,7 +67,7 @@ function Home() {
 
           <Download 
             title="Vitrine Do Mês"
-            archive={catalogo.catalogo_junho}
+            archive={catalogo.catalogo_julho}
           />
         </div>
       </div>
